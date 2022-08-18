@@ -7,6 +7,7 @@ import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
@@ -21,14 +22,17 @@ public class MovementFX extends Application {
 
         Group MFX = new Group();
 
-        Scene s = new Scene(MFX, 320, 240);
+        Scene s = new Scene(MFX, 400, 320);
 
 
 
         Rectangle mr = new Rectangle(100,100);
         mr.setFill(Color.CYAN);
+        mr.setY(200);
+        mr.setX(100);
         final double[] curX = {mr.getX()};
         final double[] curY = {mr.getY()};
+
 
         Button ub = new Button("click to move up");
         ub.setTranslateX(100);
