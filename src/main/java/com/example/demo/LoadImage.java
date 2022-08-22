@@ -15,10 +15,13 @@ public class LoadImage extends Application {
     public void start(Stage stage) throws Exception {
         stage.setTitle("Image Loading");
         Group IMFX = new Group();
-        Scene IS = new Scene(IMFX, 320, 400);
+        Scene IS = new Scene(IMFX, 800, 1000);
         FileInputStream inputstream = new FileInputStream("C:/Users/abhil/Downloads/Java/demo/src/main/java/com/example/demo/resources/breach.jpg");
         Image image = new Image(inputstream);
         ImageView imageView = new ImageView(image);
+        imageView.setPreserveRatio(true);
+        imageView.setX(200);
+        imageView.setY(200);
         IMFX.getChildren().add(imageView);
         stage.setScene(IS);
         stage.show();
