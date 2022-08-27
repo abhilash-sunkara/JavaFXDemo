@@ -12,6 +12,7 @@ import java.io.File;
 public class SongPlayer extends Application {
     @Override
     public void start(Stage stage) throws Exception {
+
         stage.setTitle("Song Player");
         Group StartGroup = new Group();
         Scene main = new Scene(StartGroup, 320 , 400);
