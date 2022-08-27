@@ -26,6 +26,7 @@ public class InputOutput extends Application {
             @Override
             public void handle(ActionEvent actionEvent) {
                 t.setText(tf.getText());
+                
             }
         };
         tf.setOnAction(iFX);
