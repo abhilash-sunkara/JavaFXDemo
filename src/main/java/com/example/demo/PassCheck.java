@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 
 public class PassCheck extends Application {
 
+
     @Override
     public void start(Stage stage) throws Exception {
         stage.setTitle("Password Checker");

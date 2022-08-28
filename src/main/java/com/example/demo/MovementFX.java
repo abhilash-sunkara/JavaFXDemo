@@ -17,6 +17,7 @@ import javafx.stage.Stage;
 
 public class MovementFX extends Application {
 
+
     @Override
     public void start(Stage stage) throws Exception {
         stage.setTitle("MovementFX");

@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 
 public class InputOutput extends Application {
 
+
     @Override
     public void start(Stage stage) throws Exception {
         stage.setTitle("InputOutput");

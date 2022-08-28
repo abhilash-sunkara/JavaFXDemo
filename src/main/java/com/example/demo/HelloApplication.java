@@ -18,6 +18,7 @@ import java.io.FileNotFoundException;
 
 public class HelloApplication extends Application {
 
+
     @Override
     public void start(Stage stage) throws FileNotFoundException {
         Group root = new Group();
