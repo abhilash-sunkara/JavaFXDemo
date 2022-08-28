@@ -13,6 +13,7 @@ import static javafx.application.Application.launch;
 
 public class MPLAYER {
 
+
     public class MediaApp extends Application {
 
         @Override
